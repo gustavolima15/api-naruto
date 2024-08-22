@@ -13,6 +13,7 @@ import lombok.NoArgsConstructor;
 public class Ninjas {
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
+    Long id;
     String nome;
     String aldeia;
     int idade;
