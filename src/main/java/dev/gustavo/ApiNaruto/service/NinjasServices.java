@@ -11,7 +11,7 @@ public class NinjasServices {
     @Autowired
     private NinjasRepository repository;
 
-    public Ninjas addNinja(Ninjas ninja) {
+    public Ninjas createNinja (Ninjas ninja) {
         return repository.save(ninja);
     }
 }
